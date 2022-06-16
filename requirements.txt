@@ -1,0 +1,7 @@
+boto3
+smbprotocol
+pathlib_mate>=1.0.3
+smart_open>=5.2.1
+boto_session_manager>=0.0.2
+s3pathlib>=1.0.10
+loguru>=0.6.0

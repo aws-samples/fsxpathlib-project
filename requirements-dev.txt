@@ -1,0 +1,7 @@
+# This requirements file should only include dependencies for development
+twine                                   # make distribution archive
+wheel                                   # make pre-compiled distribution package
+pysecret                                # Secret management that tightly integrate with AWS Secret Manager / Parameter Store
+smart_open
+pathlib_mate
+s3pathlib

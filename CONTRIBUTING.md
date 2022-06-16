@@ -6,7 +6,6 @@ documentation, we greatly value feedback and contributions from our community.
 Please read through this document before submitting any issues or pull requests to ensure we have all the necessary
 information to effectively respond to your bug report or contribution.
 
-
 ## Reporting Bugs/Feature Requests
 
 We welcome you to use the GitHub issue tracker to report bugs or suggest features.
@@ -19,8 +18,26 @@ reported the issue. Please try to include as much information as you can. Detail
 * Any modifications you've made relevant to the bug
 * Anything unusual about your environment or deployment
 
+## Getting Started
+
+* Make sure you have a GitHub account.
+* Learn and understand the [smbprotocol](https://pypi.org/project/smbprotocol/) library since it provides low-level APIs.
+* Open a new issue, assuming one does not already exist.
+* Clearly describe the issue including steps to reproduce when it is a bug.
+
+## Making Changes
+
+* Fork the repository on GitLab.
+* Create a branch from where you want to base your work (usually from the master branch).
+* Please avoid working directly on *master* branch.
+* Make commits of logical units (if needed rebase your feature branch before submitting it).
+* Make sure your commit messages are in the [proper format](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
+* Make sure you have added the necessary tests for your changes.
+* Run all the tests to assure nothing else was accidentally broken.
+* Don't forget to add yourself to [AUTHORS](./AUTHORS.rst).
 
 ## Contributing via Pull Requests
+
 Contributions via pull requests are much appreciated. Before sending us a pull request, please ensure that:
 
 1. You are working against the latest source on the *main* branch.
@@ -39,20 +56,19 @@ To send us a pull request, please:
 GitHub provides additional document on [forking a repository](https://help.github.com/articles/fork-a-repo/) and
 [creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
 
-
 ## Finding contributions to work on
+
 Looking at the existing issues is a great way to find something to contribute on. As our projects, by default, use the default GitHub issue labels (enhancement/bug/duplicate/help wanted/invalid/question/wontfix), looking at any 'help wanted' issues is a great place to start.
 
-
 ## Code of Conduct
+
 This project has adopted the [Amazon Open Source Code of Conduct](https://aws.github.io/code-of-conduct).
 For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq) or contact
 opensource-codeofconduct@amazon.com with any additional questions or comments.
 
-
 ## Security issue notifications
-If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security via our [vulnerability reporting page](http://aws.amazon.com/security/vulnerability-reporting/). Please do **not** create a public github issue.
 
+If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security via our [vulnerability reporting page](http://aws.amazon.com/security/vulnerability-reporting/). Please do **not** create a public github issue.
 
 ## Licensing
 
