@@ -65,7 +65,7 @@ Quick Start
 - Please follow the `tutorial link`_ to setup a sample FSx (for Windows File Server) storage volume if you don't have any. Locate and remember the File System ID on the console like the screen shot below. Also, please remember user name, password and domain that you have established during FSx service setup.
 
 .. image:: /images/fsx_systemid.png
-    :width: 160
+    :width: 320
 
 - Prepare an `AWS account`_ and an IAM user with **AdministratorAccess** permission. For sign up to AWS, please refer to this link_. For how to create an admin IAM user, please refer to this `AWS on-line document`_.
 
