@@ -1,0 +1,3 @@
+2022-01-01 00:00:01 | INFO  | hello from alice
+2022-01-01 00:00:02 | INFO  | hello from bob
+2022-01-01 00:00:03 | INFO  | hello from cathy
