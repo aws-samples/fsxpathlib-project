@@ -50,12 +50,24 @@ APIs for manipulating files and folders on a FSx (for Windows File Server) stora
 
 Install
 ------------------------------------------------------------------------------
+``fsxpathlib`` is released on PyPI, so all you need is:
+
+.. code-block:: console
+
+    $ pip install fsxpathlib
+
+To upgrade to latest version:
+
+.. code-block:: console
+
+    $ pip install --upgrade fsxpathlib
+
 
 To install this library from a downloaded `wheel file`_, you can do it as an example below:
 
 .. code-block:: console
 
-    $ pip install fsxpathlib-0.0.1-py2.py3-none-any.whl
+    $ pip install fsxpathlib-1.0.0-py2.py3-none-any.whl
 
 Quick Start
 ------------------------------------------------------------------------------
@@ -240,10 +252,10 @@ fsxpathlib is an open source project. See the license_ file for more information
 .. _`AWS on-line document`: https://docs.aws.amazon.com/mediapackage/latest/ug/setting-up-create-iam-user.html
 .. _link: https://portal.aws.amazon.com/billing/signup
 .. _`AWS account`: https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fportal.aws.amazon.com%2Fbilling%2Fsignup%2Fresume&client_id=signup
-.. _Release: https://gitlab.aws.dev/aws-data-lab/bookmark-utils/uploads/1e568881ada0ecc8e50d044f962f62f4/bookmark_utils-1.0.0-py2.py3-none-any.whl
+.. _Release: https://github.com/aws-samples/fsxpathlib-project/releases/
 .. _`smbprotocol`: https://pypi.org/project/smbprotocol/
 .. _`Contribution Guidelines`: CONTRIBUTING.md
 .. _`boto3 FSx client APIs`: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/fsx.html#client
 .. _`FSx (for Windows File Server)`: https://aws.amazon.com/fsx/
 .. _`tutorial link`: https://aws.amazon.com/blogs/storage/accessing-smb-file-shares-remotely-with-amazon-fsx-for-windows-file-server/
-.. _`wheel file`: https://gitlab.aws.dev/aws-data-lab/fsxpathlib-project/uploads/13fd6b7cac83cfdc666f6abb8f0e983b/fsxpathlib-0.0.1-py2.py3-none-any.whl
+.. _`wheel file`: https://github.com/aws-samples/fsxpathlib-project/releases/download/1.0.0/fsxpathlib-1.0.0-py2.py3-none-any.whl
